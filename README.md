@@ -255,15 +255,15 @@ h1,h2,h3,p{margin:0}
   <section id="hero" class="hero">
     <canvas id="heroCanvas"></canvas>
     <div class="hero-content">
-      <span class="eyebrow">کافێی کراڤا · هەولێر</span>
+      <span class="eyebrow"> بەخێر بێن بۆ کڕاڤا </span>
       <h1>تامی <span class="accent">تازە</span>، هەستی <span class="accent-2">ڕاستەقینە</span></h1>
-      <p>شەربەتی میوەی سروشتی و پەتاتەی گەرمی ترسکە — بە خۆشەویستی دروستدەکرێت، بۆ هەر ساتێکی ڕۆژت.</p>
+      <p>شەربەتی میوەی سروشتی و پەتاتەی گەرمی تازە —  .</p>
       <div class="hero-cta">
         <a href="#juice" class="btn btn-primary">بینینی شەربەتەکان</a>
         <a href="#fries" class="btn btn-outline">بینینی پەتاتەکان</a>
       </div>
     </div>
-    <div class="scroll-cue"><span></span>خوارەوە بڕۆ</div>
+    <div class="scroll-cue"><span></span> بۆ خوارەوە بڕۆ</div>
   </section>
 
   <section id="showcase" class="showcase">
@@ -271,10 +271,10 @@ h1,h2,h3,p{margin:0}
       <div class="showcase-text">
         <span class="eyebrow">نمایشی زیندووی ٣D</span>
         <h2>دەستکاری بکە، بیسوڕێنە، هەستی پێبکە</h2>
-        <p>بە ماوس یان پەنجەت شتەکە ڕابکێشە بۆ سوڕاندنەوە، پاشان جۆر و تامەکە هەڵبژێرە.</p>
+        <p>بە ماوس یان پەنجەت  ڕابکێشە بۆ سوڕاندنەوە، پاشان جۆر و تامەکە هەڵبژێرە.</p>
         <div class="mode-toggle">
-          <button data-mode="cup" class="mode-btn active">جامی شەربەت</button>
-          <button data-mode="cone" class="mode-btn">قوتووی پەتاتە</button>
+          <button data-mode="cup" class="mode-btn active"> شەربەت</button>
+          <button data-mode="cone" class="mode-btn"> پەتاتە</button>
         </div>
         <div class="swatches" id="swatches"></div>
       </div>
@@ -304,7 +304,7 @@ h1,h2,h3,p{margin:0}
       <div class="banner-overlay"></div>
       <div class="banner-content">
         <span class="eyebrow">٥ جۆری ترسکە</span>
-        <h2>پەتاتەی سووراوی گەرم</h2>
+        <h2>پەتاتەی  گەرم</h2>
         <p class="section-sub">پەتاتەی تازە بە شێوەیەکی ترسکە سووراوکراوە، لەگەڵ سۆسی تایبەتی کراڤا.</p>
       </div>
     </div>
