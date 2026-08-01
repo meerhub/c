@@ -607,12 +607,17 @@ function enterSite(){
   if(!enterBtn.classList.contains('ready')) return;
   document.getElementById('intro').classList.add('hidden');
   introActive = false;
-
+  
+  /* ئەم دێڕە بە سەلامەتی پەیجەکە دەباتەوە سەرەوە بۆ بەشی هێرۆ */
+  document.getElementById('hero').scrollIntoView({ behavior: 'smooth' });
+  
   setTimeout(()=>{
     introRenderer.dispose();
     initHero();
     initShowcase();
   }, 500);
+}
+
 }
 enterBtn.addEventListener('click', enterSite);
 document.getElementById('intro').addEventListener('click', (e)=>{
