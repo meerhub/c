@@ -643,11 +643,14 @@ function initHero(){
   const rim = new THREE.PointLight(0x1f8a4c,1,30); rim.position.set(-5,-3,-2); scene.add(rim);
 
   const items = [];
+
   const configs = [
-    {type:'cup', color:0xe1443b, pos:[-4.2,1.2,-1]},
-    {type:'cone', color:0xf3c969, pos:[4,-1.4,-2]},
-    {type:'cup', color:0x8bc34a, pos:[3.6,2,-3]},
-    {type:'cone', color:0xd9482f, pos:[-3.4,-2,-2.5]},
+    {type:'cup', color:0xe1443b, pos:[-2.2, 1.2, -1]},
+    {type:'cone', color:0xf3c969, pos:[2.2, -1.4, -2]},
+    {type:'cup', color:0x8bc34a, pos:[2.0, 2, -3]},
+    {type:'cone', color:0xd9482f, pos:[-2.0, -2, -2.5]},
+  ];
+
   ];
   configs.forEach(cfg=>{
     const g = cfg.type==='cup' ? buildCupGroup(cfg.color) : buildConeGroup(cfg.color);
