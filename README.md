@@ -649,7 +649,7 @@ function initHero(){
     {type:'cone', color:0xf3c969, pos:[2.2, -1.4, -2]},
     {type:'cup', color:0x8bc34a, pos:[2.0, 2, -3]},
     {type:'cone', color:0xd9482f, pos:[-2.0, -2, -2.5]},
-  ];
+  
 
   ];
   configs.forEach(cfg=>{
