@@ -319,8 +319,8 @@ h1,h2,h3,p{margin:0}
       <div class="footer-divider"></div>
       <p class="footer-tag">تامی تازە، هەموو ڕۆژێک</p>
       <div class="footer-meta">
-        <div><strong>کاتژمێرەکان</strong><span>ڕۆژانە ١٠:٠٠ – ٠٠:٠٠</span></div>
-        <div><strong>شوێن</strong><span>هەولێر، هەرێمی کوردستان</span></div>
+        <div><strong>کاتژمێرەکان</strong><span>ڕۆژانە5:00 – 12:00</span></div>
+        <div><strong>شوێن</strong><span>، سۆران - حریق</span></div>
         <div><strong>پەیوەندی</strong><span>instagram.com/crava.cafe</span></div>
       </div>
       <p class="footer-note">تێبینی: ئەم پەڕەیە تەنها بۆ نیشاندانی مینیوەیە — داواکاری ئۆنلاین لێرە بەردەست نییە.</p>
