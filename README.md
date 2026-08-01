@@ -607,7 +607,7 @@ function enterSite(){
   if(!enterBtn.classList.contains('ready')) return;
   document.getElementById('intro').classList.add('hidden');
   introActive = false;
-  window.scrollTo(0, 0);⁠
+
   setTimeout(()=>{
     introRenderer.dispose();
     initHero();
