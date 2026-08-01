@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="ckb" dir="rtl">
 <head>
 <meta charset="UTF-8">
@@ -607,6 +607,7 @@ function enterSite(){
   if(!enterBtn.classList.contains('ready')) return;
   document.getElementById('intro').classList.add('hidden');
   introActive = false;
+  window.scrollTo(0, 0);⁠
   setTimeout(()=>{
     introRenderer.dispose();
     initHero();
