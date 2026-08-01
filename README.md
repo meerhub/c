@@ -616,8 +616,6 @@ function enterSite(){
     initShowcase();
   }, 500);
 }
-
-}
 enterBtn.addEventListener('click', enterSite);
 document.getElementById('intro').addEventListener('click', (e)=>{
   if(e.target === document.getElementById('intro') || e.target === introCanvas) enterSite();
