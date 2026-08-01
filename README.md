@@ -582,7 +582,7 @@ function animateIntro(){
   introCone.rotation.y -= REDUCE_MOTION? 0 : .009;
   introLogoPlane.rotation.y = Math.sin(introClock*.6)*.35;
   introCamera.position.x = Math.sin(introClock*.4)*3.2;
-  introCamera.position.z = 9 + Math.cos(introClock*.4)*1.2;
+  introCamera.position.z = 15+ Math.cos(introClock*.4)*1.2;
   introCamera.lookAt(0,0.4,0);
   sparks.rotation.y += .0007;
   introRenderer.render(introScene, introCamera);
