@@ -609,7 +609,6 @@ function enterSite(){
   introActive = false;
   
   /* ئەم دێڕە بە سەلامەتی پەیجەکە دەباتەوە سەرەوە بۆ بەشی هێرۆ */
-  document.getElementById('hero').scrollIntoView({ behavior: 'smooth' });
   
   setTimeout(()=>{
     introRenderer.dispose();
